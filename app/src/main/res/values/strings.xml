@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">PPG Blood Pressure Monitor</string>
+    
+    <!-- Google Services Configuration -->
+    <string name="default_web_client_id">your-web-client-id.googleusercontent.com</string>
+    <string name="google_app_id">your-google-app-id</string>
+    
+    <!-- Navigation Titles -->
+    <string name="title_home">Trang chủ</string>
+    <string name="title_data">Dữ liệu</string>
+    <string name="title_history">Lịch sử</string>
+    <string name="title_profile">Hồ sơ</string>
+    <string name="title_charts">Charts</string>
+    <string name="back_button">Back</string>
+    
+    <!-- Home Fragment -->
+    <string name="welcome_message">Chào mừng đến với PPG MoNi</string>
+    <string name="latest_reading">Kết quả mới nhất</string>
+    <string name="quick_check">Kiểm tra nhanh</string>
+    <string name="take_measurement">Thực hiện đo</string>
+    <string name="upload_data">Tải lên dữ liệu</string>
+    
+    <!-- Blood Pressure Display -->
+    <string name="blood_pressure_title">Huyết áp</string>
+    <string name="systolic_label">Tâm thu</string>
+    <string name="diastolic_label">Tâm trương</string>
+    <string name="mmhg_unit">mmHg</string>
+    <string name="confidence_label">Độ tin cậy</string>
+    <string name="risk_level_label">Mức độ nguy cơ</string>
+    
+    <!-- Blood Pressure Categories -->
+    <string name="bp_normal">Bình thường</string>
+    <string name="bp_elevated">Cao hơn bình thường</string>
+    <string name="bp_stage1">Tăng huyết áp độ 1</string>
+    <string name="bp_stage2">Tăng huyết áp độ 2</string>
+    <string name="bp_crisis">Khủng hoảng tăng huyết áp</string>
+    
+    <!-- Risk Levels -->
+    <string name="risk_low">Thấp</string>
+    <string name="risk_moderate">Trung bình</string>
+    <string name="risk_high">Cao</string>
+    <string name="risk_critical">Rất cao</string>
+    
+    <!-- Data Fragment -->
+    <string name="upload_ppg_data">Tải lên dữ liệu PPG</string>
+    <string name="select_file">Chọn file</string>
+    <string name="process_data">Xử lý dữ liệu</string>
+    <string name="data_quality">Chất lượng dữ liệu</string>
+    <string name="signal_quality_excellent">Tuyệt vời</string>
+    <string name="signal_quality_good">Tốt</string>
+    <string name="signal_quality_fair">Trung bình</string>
+    <string name="signal_quality_poor">Kém</string>
+    <string name="signal_quality_unusable">Không sử dụng được</string>
+    
+    <!-- History Fragment -->
+    <string name="prediction_history">Lịch sử dự đoán</string>
+    <string name="view_charts">Xem biểu đồ</string>
+    <string name="export_data">Xuất dữ liệu</string>
+    <string name="filter_by_date">Lọc theo ngày</string>
+    <string name="last_week">Tuần trước</string>
+    <string name="last_month">Tháng trước</string>
+    <string name="last_3_months">3 tháng trước</string>
+    
+    <!-- Profile Fragment -->
+    <string name="user_profile">Hồ sơ người dùng</string>
+    <string name="personal_info">Thông tin cá nhân</string>
+    <string name="health_info">Thông tin sức khỏe</string>
+    <string name="age_label">Tuổi</string>
+    <string name="gender_label">Giới tính</string>
+    <string name="height_label">Chiều cao (cm)</string>
+    <string name="weight_label">Cân nặng (kg)</string>
+    <string name="bmi_label">Chỉ số BMI</string>
+    <string name="activity_level_label">Mức độ vận động</string>
+    <string name="smoking_status_label">Tình trạng hút thuốc</string>
+    <string name="alcohol_consumption_label">Uống rượu bia</string>
+    <string name="medical_history_label">Tiền sử bệnh</string>
+    <string name="medications_label">Thuốc đang sử dụng</string>
+    
+    <!-- Gender Options -->
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    
+    <!-- Activity Levels -->
+    <string name="activity_sedentary">Ít vận động</string>
+    <string name="activity_light">Vận động nhẹ</string>
+    <string name="activity_moderate">Vận động vừa phải</string>
+    <string name="activity_vigorous">Vận động mạnh</string>
+    <string name="activity_very_vigorous">Vận động rất mạnh</string>
+    
+    <!-- Smoking Status -->
+    <string name="smoking_never">Không bao giờ</string>
+    <string name="smoking_former">Đã từng hút</string>
+    <string name="smoking_current">Hiện tại hút</string>
+    
+    <!-- Alcohol Consumption -->
+    <string name="alcohol_none">Không uống</string>
+    <string name="alcohol_occasional">Thỉnh thoảng</string>
+    <string name="alcohol_moderate">Vừa phải</string>
+    <string name="alcohol_heavy">Nhiều</string>
+    
+    <!-- Common Actions -->
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="update">Cập nhật</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="ok">OK</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    
+    <!-- Messages -->
+    <string name="loading">Đang tải...</string>
+    <string name="processing">Đang xử lý...</string>
+    <string name="success">Thành công</string>
+    <string name="error">Lỗi</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="data_saved">Dữ liệu đã được lưu</string>
+    <string name="data_uploaded">Dữ liệu đã được tải lên</string>
+    <string name="prediction_completed">Dự đoán hoàn thành</string>
+    
+    <!-- Recommendations -->
+    <string name="recommendations_title">Gợi ý sức khỏe</string>
+    <string name="lifestyle_recommendation">Thay đổi lối sống</string>
+    <string name="diet_recommendation">Chế độ ăn uống</string>
+    <string name="exercise_recommendation">Tập thể dục</string>
+    <string name="medical_recommendation">Tham khảo y tế</string>
+    
+    <!-- Emergency Messages -->
+    <string name="emergency_alert">Cảnh báo khẩn cấp</string>
+    <string name="high_bp_warning">Huyết áp của bạn ở mức cao. Hãy tham khảo ý kiến bác sĩ ngay lập tức.</string>
+    <string name="crisis_warning">CẢNH BÁO: Huyết áp ở mức nguy hiểm! Cần chăm sóc y tế khẩn cấp.</string>
+    
+    <!-- File Operations -->
+    <string name="select_ppg_file">Chọn file dữ liệu PPG</string>
+    <string name="file_selected">Đã chọn file: %1$s</string>
+    <string name="file_processing">Đang xử lý file...</string>
+    <string name="file_processed">File đã được xử lý thành công</string>
+    <string name="file_error">Lỗi khi xử lý file</string>
+    
+    <!-- Chart Labels -->
+    <string name="chart_title_bp_trend">Xu hướng huyết áp</string>
+    <string name="chart_systolic">Tâm thu</string>
+    <string name="chart_diastolic">Tâm trương</string>
+    <string name="chart_date_axis">Ngày</string>
+    <string name="chart_bp_axis">Huyết áp (mmHg)</string>
+    
+    <!-- Google Services -->
+    <string name="google_sign_in">Đăng nhập với Google</string>
+    <string name="google_sign_out">Đăng xuất Google</string>
+    <string name="google_backup">Sao lưu lên Google Drive</string>
+    <string name="google_restore">Khôi phục từ Google Drive</string>
+    <string name="backup_success">Sao lưu thành công</string>
+    <string name="restore_success">Khôi phục thành công</string>
+    <string name="sync_in_progress">Đang đồng bộ...</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_health">Sức khỏe</string>
+    <string name="notification_channel_reminders">Nhắc nhở</string>
+    <string name="notification_channel_emergency">Khẩn cấp</string>
+</resources>
